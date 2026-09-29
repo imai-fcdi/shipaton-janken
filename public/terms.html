@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>利用規約 | じゃんけんバトル</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✊</text></svg>" />
+    <style>
+      /* src/style.css と同じトークン（public/ は Vite で処理されないため同梱） */
+      :root {
+        --bg: #f6f4ef; --card: #ffffff; --text: #1f1d1a; --muted: #6b665e;
+        --line: #e4e0d8; --accent: #e0523a;
+        color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root { --bg: #171614; --card: #221f1c; --text: #f1ede6; --muted: #a39d93; --line: #37332e; }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0; background: var(--bg); color: var(--text);
+        font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+        line-height: 1.8;
+      }
+      main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+      h1 { text-align: center; font-size: 1.6rem; margin: 8px 0 4px; }
+      .date { text-align: center; color: var(--muted); margin: 0 0 20px; font-size: .9rem; }
+      .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+      h2 { font-size: 1rem; margin: 20px 0 4px; }
+      h2:first-child { margin-top: 0; }
+      p { margin: 0; overflow-wrap: anywhere; }
+      a { color: var(--accent); }
+      .back { display: block; text-align: center; margin-top: 20px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>じゃんけん 利用規約</h1>
+      <p class="date">制定日：2026年9月29日</p>
+      <article class="card">
+        <h2>第1条（運営者）</h2>
+        <p>本サービスは Future City Data Institute（以下「当方」）が運営します。連絡先：<a href="mailto:vibe@futurecityd.com">vibe@futurecityd.com</a></p>
+        <h2>第2条（サービス内容）</h2>
+        <p>本サービスはブラウザで遊べるじゃんけんゲームで、無料で利用できます。</p>
+        <h2>第3条（応援パス）</h2>
+        <p>応援パスは、開発を応援するための任意の1回限りの支払い（100円・税込）です。追加機能や特典の提供を約束するものではありません。</p>
+        <h2>第4条（決済）</h2>
+        <p>決済は Stripe および RevenueCat を通じて処理されます。当方はカード情報を保持しません。</p>
+        <h2>第5条（返金）</h2>
+        <p>デジタルコンテンツの性質上、購入後の返金は原則として行いません。ただし、重複課金等の誤りについては、購入日から14日以内にご連絡いただければ対応します。</p>
+        <h2>第6条（禁止事項）</h2>
+        <p>不正アクセス、ランキングの不正操作、その他本サービスの運営を妨げる行為を禁止します。</p>
+        <h2>第7条（個人情報）</h2>
+        <p>本サービスは、ニックネームと対戦結果を保存します。決済に必要な情報は決済事業者が取り扱います。</p>
+        <h2>第8条（免責）</h2>
+        <p>本サービスは現状のまま提供され、予告なく内容の変更または提供の終了を行うことがあります。</p>
+        <h2>第9条（準拠法・管轄）</h2>
+        <p>本規約は日本法に準拠し、紛争は東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+      </article>
+      <a class="back" href="/">← じゃんけんに戻る</a>
+    </main>
+  </body>
+</html>
