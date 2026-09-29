@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "providers": {
+    "revenuecat": {
+      "name": "RevenueCat"
+    },
+    "supabase": {
+      "name": "Supabase"
+    },
+    "vercel": {
+      "name": "Vercel"
+    }
+  },
+  "resources": {
+    "revenuecat-app": {
+      "livemode": true,
+      "name": "revenuecat-app",
+      "providerName": "RevenueCat",
+      "serviceId": "app"
+    },
+    "shipaton": {
+      "livemode": true,
+      "name": "shipaton",
+      "providerName": "Vercel",
+      "serviceId": "project"
+    },
+    "shipaton-2": {
+      "livemode": true,
+      "name": "shipaton-2",
+      "providerName": "Supabase",
+      "serviceId": "project"
+    },
+    "supabase-plan": {
+      "livemode": true,
+      "name": "supabase-plan",
+      "providerName": "Supabase",
+      "serviceId": "free"
+    },
+    "vercel-plan": {
+      "livemode": true,
+      "name": "vercel-plan",
+      "providerName": "Vercel",
+      "serviceId": "hobby"
+    }
+  }
+}

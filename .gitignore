@@ -10,3 +10,7 @@ dist
 .env
 .env.*
 !.env.example
+
+# .projects は state.json のみ追跡（vault・cache・state.local.json 等は除外）
+.projects/*
+!.projects/state.json
