@@ -1,0 +1,110 @@
+{
+  "version": 4,
+  "project": {
+    "catalog": "prod",
+    "initializedAt": "2026-09-29T06:21:22.733Z",
+    "merchantDisplayName": "Future City Data Institute",
+    "merchantId": "acct_1TWoZoPUn1AMhRfZ",
+    "projectId": "project_61VUIN842VFqMfWJp16UgCXA4pHNVWwV60aXbESh60Jk",
+    "projectName": "shipaton"
+  },
+  "providers": {
+    "revenuecat": {
+      "accountRequestId": "facctrq_61VUJbqySsZSs8iRb16UgCXA4pHNVWwV60aXbESh6KTY",
+      "configuration": {},
+      "linkedAt": "2026-09-29T07:40:41.127Z",
+      "providerId": "prvdr_61UvIBCNECigaYpha53zM",
+      "providerName": "RevenueCat",
+      "redirectUrl": null,
+      "requestedAt": "2026-09-29T07:40:41.127Z",
+      "status": "complete"
+    },
+    "supabase": {
+      "accountRequestId": "facctrq_61VUInwHpfEgcx0jX16UgCXA4pHNVWwV60aXbESh6MwS",
+      "configuration": {},
+      "linkedAt": "2026-09-29T06:49:31.196Z",
+      "providerId": "prvdr_61UIXYHdsyF69pZbG52n2",
+      "providerName": "Supabase",
+      "redirectUrl": null,
+      "requestedAt": "2026-09-29T06:49:14.064Z",
+      "status": "complete"
+    },
+    "vercel": {
+      "accountRequestId": "facctrq_61VUInWeXALnDKwch16UgCXA4pHNVWwV60aXbESh69s0",
+      "configuration": {},
+      "linkedAt": "2026-09-29T06:48:41.447Z",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "redirectUrl": null,
+      "requestedAt": "2026-09-29T06:48:41.447Z",
+      "status": "complete"
+    }
+  },
+  "resources": {
+    "revenuecat-app": {
+      "configuration": {},
+      "createdAt": "2026-09-29T07:40:42.433Z",
+      "lastRevealedAt": "2026-09-29T07:40:42.718Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "revenuecat-app",
+      "providerId": "prvdr_61UvIBCNECigaYpha53zM",
+      "providerName": "RevenueCat",
+      "resourceId": "fres_61VUJbtpPMnDa96VO16UgCXA4pHNVWwV60aXbESh6IvY",
+      "serviceId": "app"
+    },
+    "shipaton": {
+      "configuration": {
+        "name": "shipaton"
+      },
+      "createdAt": "2026-09-29T06:48:45.034Z",
+      "lastRevealedAt": "2026-09-29T06:48:45.528Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "shipaton",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61VUIncG0k3lBWuWz16UgCXA4pHNVWwV60aXbESh6MRc",
+      "serviceId": "project"
+    },
+    "shipaton-2": {
+      "configuration": {
+        "name": "shipaton",
+        "region": "americas"
+      },
+      "createdAt": "2026-09-29T06:50:23.664Z",
+      "lastRevealedAt": "2026-09-29T11:37:35.982Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "shipaton-2",
+      "providerId": "prvdr_61UIXYHdsyF69pZbG52n2",
+      "providerName": "Supabase",
+      "resourceId": "fres_61VUIovsBsJ1RbNfv16UgCXA4pHNVWwV60aXbESh6Gd6",
+      "serviceId": "project"
+    },
+    "supabase-plan": {
+      "configuration": {},
+      "createdAt": "2026-09-29T06:49:50.856Z",
+      "lastRevealedAt": "2026-09-29T06:49:51.342Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "supabase-plan",
+      "providerId": "prvdr_61UIXYHdsyF69pZbG52n2",
+      "providerName": "Supabase",
+      "resourceId": "fres_61VUIoPLPV1OiiMFe16UgCXA4pHNVWwV60aXbESh6L56",
+      "serviceId": "free"
+    },
+    "vercel-plan": {
+      "configuration": {},
+      "createdAt": "2026-09-29T06:48:42.826Z",
+      "lastRevealedAt": "2026-09-29T06:48:43.224Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "vercel-plan",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61VUInaAvM0m7Qnef16UgCXA4pHNVWwV60aXbESh6QPQ",
+      "serviceId": "hobby"
+    }
+  }
+}

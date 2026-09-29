@@ -11,6 +11,7 @@ dist
 .env.*
 !.env.example
 
-# .projects は state.json のみ追跡（vault・cache・state.local.json 等は除外）
+# .projects は提出用に state.json と state.local.json のみ追跡（vault・cache 等は除外）
 .projects/*
 !.projects/state.json
+!.projects/state.local.json
