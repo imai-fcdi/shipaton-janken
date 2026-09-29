@@ -113,5 +113,16 @@ function li(text, meta, cls = '') {
   return el
 }
 
+const PAYWALL_URL = 'https://pay.rev.cat/vizzkbiaikrbdcbp/'
+
+$('support').addEventListener('click', () => {
+  let userId = localStorage.getItem('rc_user_id')
+  if (!userId) {
+    userId = crypto.randomUUID()
+    localStorage.setItem('rc_user_id', userId)
+  }
+  window.open(PAYWALL_URL + encodeURIComponent(userId), '_blank', 'noopener')
+})
+
 if (nickname) enterGame()
 loadBoards()
