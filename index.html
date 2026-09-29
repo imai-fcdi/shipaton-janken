@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>じゃんけんバトル</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✊</text></svg>" />
+  </head>
+  <body>
+    <main>
+      <h1>じゃんけんバトル</h1>
+
+      <section id="login" class="card">
+        <label for="nickname">ニックネーム</label>
+        <div class="row">
+          <input id="nickname" maxlength="20" placeholder="例: たろう" autocomplete="nickname" />
+          <button id="start">はじめる</button>
+        </div>
+      </section>
+
+      <section id="game" class="card" hidden>
+        <p class="who"><span id="me"></span> さん <button id="change" class="link">変更</button></p>
+        <div class="arena">
+          <div class="side"><div class="hand" id="player-hand">❔</div><small>あなた</small></div>
+          <div class="vs">VS</div>
+          <div class="side"><div class="hand" id="cpu-hand">❔</div><small>CPU</small></div>
+        </div>
+        <p id="result" class="result">手を選んでください</p>
+        <div class="choices">
+          <button class="choice" data-hand="rock" aria-label="グー">✊<span>グー</span></button>
+          <button class="choice" data-hand="scissors" aria-label="チョキ">✌️<span>チョキ</span></button>
+          <button class="choice" data-hand="paper" aria-label="パー">✋<span>パー</span></button>
+        </div>
+        <p class="stats" id="my-stats"></p>
+      </section>
+
+      <div class="grid">
+        <section class="card">
+          <h2>ランキング（勝ち数）</h2>
+          <ol id="leaderboard"></ol>
+        </section>
+        <section class="card">
+          <h2>最近の対戦</h2>
+          <ul id="recent"></ul>
+        </section>
+      </div>
+      <p id="error" class="error" hidden></p>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.env
+.env.*
+.projects
+.claude
+.agents
+.cursor
+node_modules
+dist
